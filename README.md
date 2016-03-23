@@ -37,6 +37,8 @@ optional arguments:
 
 Currently this only works on FASTQ files (https://en.wikipedia.org/wiki/FASTQ_format).
 
+gzip'd input is accepted and automatically detected.
+
 The identifier list should be a newline-separated list of each identifier to match against. For example: 
 
 ```
