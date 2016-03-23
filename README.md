@@ -5,7 +5,7 @@ Each entry in the input FASTQ file (or files) is checked against all entries in 
 
 # usage 
 
-[snf@mcb ~/mouse_vs_human]$ ~/src/filter_fastq.py -h
+```
 usage: filter_fastq.py [-h] [-i INPUT] [-1 READ1] [-2 READ2] [-p NUM_THREADS]
                        [-o OUTPUT] [-f FILTER_FILE] [-v] [--gzip]
 
@@ -30,7 +30,7 @@ optional arguments:
                         fastq
   -v, --invert          Invert match (exclude matching entries)
   --gzip                gzip compress the output
-
+```
 # File formats
 
 Currently this only works on FASTQ files (https://en.wikipedia.org/wiki/FASTQ_format).
